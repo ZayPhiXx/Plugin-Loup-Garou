@@ -1,0 +1,19 @@
+name: Main
+version: 1.0
+author: Zay
+main: org.zay.example.Main
+api-version: 1.15
+commands:
+  test:
+    description: test
+    permission: test.use
+  alert:
+    description: broadcast
+    permission: alert.useS
+  hub:
+    descritpion: tp
+  tools:
+    description: donne les lg tools
+    permission: tool.use
+  reset:
+    description: reset tous les roles
